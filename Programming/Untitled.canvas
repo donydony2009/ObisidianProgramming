@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"c0372a53fd404c35","type":"file","file":"DataDriven/Inheritance vs composition.md","x":-300,"y":-300,"width":560,"height":560},
+		{"id":"df51059e3d8365fd","x":446,"y":-205,"width":400,"height":400,"type":"file","file":"DataDriven/ECS.md"}
+	],
+	"edges":[
+		{"id":"0f0b24e9edad857c","fromNode":"c0372a53fd404c35","fromSide":"right","toNode":"df51059e3d8365fd","toSide":"left"}
+	]
+}
