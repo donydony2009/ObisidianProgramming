@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d194c20e5cb78557",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms Tricks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DataDriven/Data Driven principles.md",
+                "file": "Algorithms Tricks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DataDriven/Data Driven principles.md",
+                "file": "Algorithms Tricks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataDriven/Data Driven principles.md"
+                "file": "Algorithms Tricks.md"
               }
             }
           }
@@ -146,10 +159,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fd989c34a0764893",
+  "active": "d194c20e5cb78557",
   "lastOpenFiles": [
-    "DataDriven/ECS.md",
     "DataDriven/Data Driven principles.md",
+    "Algorithms Tricks.md",
+    "DataDriven/ECS.md",
     "DataDriven/Components.md",
     "DataDriven/Inheritance vs composition.md",
     "Untitled 1.canvas",
