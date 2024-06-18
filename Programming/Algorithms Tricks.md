@@ -5,3 +5,6 @@
 - 1 index parsing
 - 2 index parsing
 - Binary search
+
+#### Binary Tree
+- Closes element to the current node is either the rightmost node of the left child or  the leftmost node of the right child
