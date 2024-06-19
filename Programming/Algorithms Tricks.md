@@ -15,3 +15,4 @@
 ### Heap 
 - Min heap: std::make_heap(v1.begin(), v1.end(), [std::greater](http://en.cppreference.com/w/cpp/utility/functional/greater)<>{});
 - Hint: k different things?
+- Hint2: Continuous push pop max.
