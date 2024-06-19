@@ -8,3 +8,10 @@
 
 #### Binary Tree
 - Closes element to the current node is either the rightmost node of the left child or  the leftmost node of the right child
+
+### DP
+- You can use a tail to track the path of the DP. In this case `tail[i]` will hold the ith step. Additionally tail it can sometimes be binary_searched.
+
+### Heap 
+- Min heap: std::make_heap(v1.begin(), v1.end(), [std::greater](http://en.cppreference.com/w/cpp/utility/functional/greater)<>{});
+- Hint: k different things?
