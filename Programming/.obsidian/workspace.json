@@ -57,9 +57,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a8373ccd8adba3d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "System design.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -125,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To Study for Microsoft.md",
+                "file": "System design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To Study for Microsoft.md",
+                "file": "System design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To Study for Microsoft.md"
+                "file": "System design.md"
               }
             }
           }
@@ -186,12 +198,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a5278511796e7869",
+  "active": "a8373ccd8adba3d2",
   "lastOpenFiles": [
-    "Algorithms Tricks.md",
     "To Study for Microsoft.md",
-    "Untitled.canvas",
+    "System design.md",
     "Current.md",
+    "Algorithms Tricks.md",
+    "Untitled.canvas",
     "Untitled",
     "DataDriven/Data Driven principles.md",
     "DataDriven/ECS.md",
