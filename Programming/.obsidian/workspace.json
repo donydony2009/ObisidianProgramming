@@ -64,7 +64,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "System design.md",
+                "file": "To Study for Microsoft.md",
                 "mode": "source",
                 "source": false
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "System design.md",
+                "file": "To Study for Microsoft.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "System design.md",
+                "file": "To Study for Microsoft.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "System design.md"
+                "file": "To Study for Microsoft.md"
               }
             }
           }
@@ -200,8 +200,8 @@
   },
   "active": "a8373ccd8adba3d2",
   "lastOpenFiles": [
-    "To Study for Microsoft.md",
     "System design.md",
+    "To Study for Microsoft.md",
     "Current.md",
     "Algorithms Tricks.md",
     "Untitled.canvas",
