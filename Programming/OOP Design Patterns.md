@@ -72,3 +72,7 @@ Esentially refers to state machine. Each state is a class which does stuff on st
 A swappable function that serves as a strategy to execute. For example retry strategy could be exponential, immediate, liniar
 
 ### Template method
+A class that serves as a skeleton for doing a process. It would have something like doX, doY, checkZ and all these methods can be overriden through inheritance
+
+### Visitor
+A way to go through a collection by executing a function for each object. Can be used as a for each. An example would be if you wanted to go through a graph.
