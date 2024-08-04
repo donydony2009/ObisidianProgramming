@@ -196,3 +196,7 @@ Examples of **mysql sharding stuff:**
 Used to track valuable information about our system and how it's used, Can be very important if something bad happens. It is the window into how our system works.
 
 Additionally it can be very important for business reasons
+
+### Content deduplication
+
+With any user content there is a high probability that there is some content duplication which we don't need to store multiple times
