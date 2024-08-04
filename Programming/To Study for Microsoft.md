@@ -1,9 +1,10 @@
 - Sorting algs (Merge and quick)
+- OOP design patterns
 - Graphs - Dijkstra and A*
 - Trie
 - NP - Complete problems
 - Discrete math - Counting problems, probability problems
-- System Design and Distributed Systems - https://hackernoon.com/how-not-to-design-netflix-in-your-45-minute-system-design-interview-64953391a054 https://hackernoon.com/anatomy-of-a-system-design-interview-4cb57d75a53f https://github.com/donnemartin/system-design-primer
+- semiX - System Design and Distributed Systems - https://hackernoon.com/how-not-to-design-netflix-in-your-45-minute-system-design-interview-64953391a054 https://hackernoon.com/anatomy-of-a-system-design-interview-4cb57d75a53f https://github.com/donnemartin/system-design-primer
 - https://www.educative.io/courses/grokking-modern-system-design-interview-for-engineers-managers?ref=hackernoon.com
 
 Operating Systems
