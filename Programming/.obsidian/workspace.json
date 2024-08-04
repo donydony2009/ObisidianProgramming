@@ -57,33 +57,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "a8373ccd8adba3d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "To Study for Microsoft.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "80a6158c144b3095",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OOP Design Patterns.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -149,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OOP Design Patterns.md",
+                "file": "To Study for Microsoft.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OOP Design Patterns.md",
+                "file": "To Study for Microsoft.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OOP Design Patterns.md"
+                "file": "To Study for Microsoft.md"
               }
             }
           }
@@ -210,16 +186,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fd989c34a0764893",
+  "active": "a5278511796e7869",
   "lastOpenFiles": [
-    "Imgs",
-    "Imgs/Pasted image 20240804134948.png",
-    "To Study for Microsoft.md",
     "OOP Design Patterns.md",
+    "Imgs/Pasted image 20240804134948.png",
+    "Imgs",
     "System design.md",
-    "Current.md",
     "Algorithms Tricks.md",
+    "To Study for Microsoft.md",
     "Untitled.canvas",
+    "Current.md",
+    "Untitled",
     "DataDriven/Data Driven principles.md",
     "DataDriven/ECS.md",
     "DataDriven/Components.md",
