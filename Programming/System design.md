@@ -24,6 +24,17 @@
 2. Establish high level design starting from User and from his writes. Make sure to talk through the whole process. Think of tradeoffs. At this point don't name specific technologies. Try to get buy in from interviewer. Make sure he is on  board with your proposal
 3. Deep dive. Name technologies and tradeoffs
 
+### Back of the envelope tricks
+- 2^10 is 10^3
+- For an url generator we can use 64 characters which is a-zA-z0-9_-
+- 80-20 rule 20 % of users are responsible for 80% of the work
+
+### Ways to throttle
+- Api key
+- IP
+- Account
+
+
 ### Design patterns
 
 1. Load balancer -> horizontal scaling
@@ -179,3 +190,9 @@ Examples of **mysql sharding stuff:**
 - TAO from facebook
 - Gizzard at twitter
 - Vitess
+
+### Telemetry
+
+Used to track valuable information about our system and how it's used, Can be very important if something bad happens. It is the window into how our system works.
+
+Additionally it can be very important for business reasons
