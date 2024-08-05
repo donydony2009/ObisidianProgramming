@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms Tricks.md",
+                "file": "System design.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms Tricks.md",
+                "file": "System design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms Tricks.md",
+                "file": "System design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms Tricks.md"
+                "file": "System design.md"
               }
             }
           }
@@ -188,14 +188,14 @@
   },
   "active": "a5278511796e7869",
   "lastOpenFiles": [
-    "Current.md",
-    "System design.md",
-    "Untitled.canvas",
     "To Study for Microsoft.md",
+    "System design.md",
     "OOP Design Patterns.md",
+    "Current.md",
+    "Algorithms Tricks.md",
+    "Untitled.canvas",
     "Imgs/Pasted image 20240804134948.png",
     "Imgs",
-    "Algorithms Tricks.md",
     "Untitled",
     "DataDriven/Data Driven principles.md",
     "DataDriven/ECS.md",

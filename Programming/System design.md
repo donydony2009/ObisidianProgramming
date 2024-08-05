@@ -21,8 +21,9 @@
 	2. What is the availability needed?
 	3. What about consistency?
 	4. What is the reliability needed?
-2. Establish high level design starting from User and from his writes. Make sure to talk through the whole process. Think of tradeoffs. At this point don't name specific technologies. Try to get buy in from interviewer. Make sure he is on  board with your proposal
-3. Deep dive. Name technologies and tradeoffs
+2. Calculations on data requirements
+3. Establish high level design starting from User and from his writes. Make sure to talk through the whole process. Think of tradeoffs. At this point don't name specific technologies. Try to get buy in from interviewer. Make sure he is on  board with your proposal
+4. Deep dive. Name technologies and tradeoffs
 
 ### Back of the envelope tricks
 - 2^10 is 10^3
@@ -200,3 +201,40 @@ Additionally it can be very important for business reasons
 ### Content deduplication
 
 With any user content there is a high probability that there is some content duplication which we don't need to store multiple times
+
+### Twitter
+
+100 M
+70 M 
+5 writes per user per day
+100 reads per user per day
+140 chars per tweet
+Support images and video
+Follower - Followee relation
+Likes? Views?
+
+non functional requirements
+Highly available 
+Consitency - Eventually consistent is fine
+Latency - As low as possible
+Reliability - We don't want to lose any content
+
+70M * 100 * 140 - tweet read contnet
+70M * 5 * 140 - tweet write
+70M * 5 * 0.05 * 10MB - audio/video content
+
+1 day - 70M * 5 * 140 * backups/sharding
+10 years - 10 * 365 * 70M * 5 * 140 
+
+1 day - 70M * 5 * 0.5 * 10MB
+10 years - 10 * 365 * 70M * 5 * 0.05 * 10MB
+
+User -> Write -> LB -> Tweet service -> Tweet, user, date, content metadata
+			 -> av we post to object storage
+	 -> Read from CDN
+	 -> Follow -> LB -> Follow service
+	 -> Read timeline -> Get follow list
+				 -> Fetch tweets based on followers
+			 
+
+
