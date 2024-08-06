@@ -166,6 +166,13 @@ Every single cloud
 ### Databases
 Storage with querying capacity.
 
+#### CAP
+In databases there is a CAP theory meaning Conistency, Availability and Partition tolerance.
+C - Consistency - Read always gets the latest data or an error
+A - Availability - Every request received by a non-failing node in the system must result in a response
+P - Partition tolerance - The system continues to operate despite an arbitrary  number of messages  being dropped or delayed by the network between node
+
+You can only ever achieve 2. And they are denoted as CA, CP or AP
 #### Types
 - These types have some overlap
 1. Relational databases - Usually organized into tables providing strong consistency guarantees, and trasactions. They stand out in being able to  establish relations between tables and maintaining these relations with strict consistency
@@ -179,6 +186,34 @@ Storage with querying capacity.
 	- They scale horizontally extremely good
 	- Usually provide some sort of pay for usage
 	- Usually they require 0 setup
+
+#### In memory databases
+Usually used for caching, ephemeral data, or distributed locking.
+
+#### SQL ACID
+Relation databases are used when you need strong consistency.
+
+#### NoSQL drop some consistency
+Used for horizontal scaling at the cost of consistency
+
+#### Cassandra vs Mongo
+M- For availability Mongo has only one primary node and if it goes down it can spend a bit of time to choose a new one which can cause downtime
+C+ Cassandra has many master nodes which allows for 100% availability
+M+ You have more ocntrol as you scale allowing you to decide how to particition data across nodes based on your requirements and manage massivle distributed dbs
+C- Performance may drop at scale
+M+ Mongo supports transactions
+C- Cassandra doesn't support transactions
+
+#### What is big data
+Extremely large and diverese collections of structured unstructered and semi structured data that continues to grow exponentially over time
+
+#### Text search dbs
+- Lucene / Elastic Search - Not trivial to integrate
+- Postgres
+- Mysql
+- Sphinx
+
+
 
 ### Relational vs nosql
 Ditching the relational aspect of a db allows you to much more easily shard horizontally across multiple servers.
