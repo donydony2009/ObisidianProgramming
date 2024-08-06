@@ -237,6 +237,15 @@ Additionally it can be very important for business reasons
 
 With any user content there is a high probability that there is some content duplication which we don't need to store multiple times
 
+
+### Metrics
+
+#### Health checks
+Check on an endpoint if things are not responding
+
+#### Metrics
+You can monitor status requests, Errors, latency,
+
 ### Twitter
 
 100 M
