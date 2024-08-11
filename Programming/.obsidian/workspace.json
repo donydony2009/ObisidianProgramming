@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "System design.md",
+                "file": "Algorithms Tricks.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "System design.md",
+                "file": "Algorithms Tricks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "System design.md",
+                "file": "Algorithms Tricks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "System design.md"
+                "file": "Algorithms Tricks.md"
               }
             }
           }
@@ -188,11 +188,11 @@
   },
   "active": "a5278511796e7869",
   "lastOpenFiles": [
-    "To Study for Microsoft.md",
     "System design.md",
     "OOP Design Patterns.md",
-    "Current.md",
     "Algorithms Tricks.md",
+    "To Study for Microsoft.md",
+    "Current.md",
     "Untitled.canvas",
     "Imgs/Pasted image 20240804134948.png",
     "Imgs",
