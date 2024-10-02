@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms Tricks.md",
+                "file": "System design.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,6 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "System design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,6 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "System design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "System design.md"
               }
             }
           }
@@ -186,6 +188,9 @@
   },
   "active": "fd989c34a0764893",
   "lastOpenFiles": [
+    "Imgs/Pasted image 20241002232613.png",
+    "Imgs/Pasted image 20241002232544.png",
+    "DataDriven/Data Driven principles.md",
     "Algorithms Tricks.md",
     "Untitled.md",
     "System design.md",
@@ -196,7 +201,6 @@
     "Imgs/Pasted image 20240804134948.png",
     "Imgs",
     "Untitled",
-    "DataDriven/Data Driven principles.md",
     "DataDriven/ECS.md",
     "DataDriven/Components.md",
     "DataDriven/Inheritance vs composition.md",

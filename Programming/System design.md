@@ -279,6 +279,11 @@ User -> Write -> LB -> Tweet service -> Tweet, user, date, content metadata
 	 -> Follow -> LB -> Follow service
 	 -> Read timeline -> Get follow list
 				 -> Fetch tweets based on followers
-			 
 
+
+### Tricks
+
+- **Proxy Usecase** - When faced with a  many to many relationship, for example group X is fully connected to group Y requires card(X) * card(Y) connections. But putting one or more Proxies in the middle reduces it to card(X) + card(Y) ([[https://www.youtube.com/watch?v=ArBL7eQwc_Q|vid]])
+			 
+![[Pasted image 20241002232613.png]]
 
