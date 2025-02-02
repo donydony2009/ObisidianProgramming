@@ -58,12 +58,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "System design.md",
+                "file": "To Study for Microsoft.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "System design"
+              "title": "To Study for Microsoft"
             }
           }
         ],
@@ -208,17 +208,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fd989c34a0764893",
+  "active": "a5278511796e7869",
   "lastOpenFiles": [
+    "OOP Design Patterns.md",
+    "System design.md",
+    "Current.md",
+    "Algorithms Tricks.md",
+    "DataDriven/Data Driven principles.md",
     "Imgs/Pasted image 20241002232613.png",
     "Imgs/Pasted image 20241002232544.png",
-    "DataDriven/Data Driven principles.md",
-    "Algorithms Tricks.md",
     "Untitled.md",
-    "System design.md",
-    "OOP Design Patterns.md",
     "To Study for Microsoft.md",
-    "Current.md",
     "Untitled.canvas",
     "Imgs/Pasted image 20240804134948.png",
     "Imgs",
